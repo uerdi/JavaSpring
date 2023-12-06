@@ -1,0 +1,11 @@
+h1 {
+    color: blueviolet;
+}
+.custom-table {
+    max-width: 70%;
+    margin: auto;
+}
+.custom-table th, .custom-table td {
+    width: auto;
+}
+
