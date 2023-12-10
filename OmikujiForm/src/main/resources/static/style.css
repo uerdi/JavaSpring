@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    text-align:center;
+    padding:125px 50px 50px 10px;
+}
+th{
+    background-color: #8000ff;
+    color: white;
+}
+th, td{
+    border-bottom: 1px solid #ddd;
+    width: 25vw;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    font-size: x-large;
+    font-weight: bold;
+}
