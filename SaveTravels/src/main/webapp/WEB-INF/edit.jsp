@@ -10,7 +10,7 @@
     <title>Edit Expense</title>
 </head>
 <body style="margin: 10vw;">
-<h1>Edit Expense</h1><a href="/expenses/">Go back</a>
+<h1>Edit Expense</h1><a href="/expenses">Go back</a>
 <br>
 <div>
     <h1>Expense</h1>

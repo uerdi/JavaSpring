@@ -32,9 +32,8 @@ public class MainController {
     @PostMapping("/create/expense")
     public String newExpense(@Valid @ModelAttribute("expense") Expenses expense, BindingResult result, Model model) {
         if (result.hasErrors()) {
-            List<Expenses> expenses = expenseService.getAllExpenses();
-            model.addAttribute("expenses", expenses);
-            return "index";
+
+            return "redirect:/expenses";
         } else {
             expenseService.createExpense(expense);
             return "redirect:/expenses";

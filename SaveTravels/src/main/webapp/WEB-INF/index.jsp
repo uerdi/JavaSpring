@@ -35,7 +35,7 @@
 <br>
 <div>
     <h1>Add an expense:</h1>
-    <form:form action="/expenses" method="post" modelAttribute="expense">
+    <form:form action="/create/expense" method="post" modelAttribute="expense">
 
         <div>
             <form:label path="name">Expense Name: </form:label><br />
@@ -65,8 +65,6 @@
         <div>
             <input type="submit" value="Submit"/>
         </div>
-
-
 
     </form:form>
 </div>

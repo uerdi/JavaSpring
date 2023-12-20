@@ -38,7 +38,6 @@ public class Expenses {
     private Date updatedAt;
 
 
-
     @PrePersist
     protected void onCreate(){
         this.createdAt = new Date();
