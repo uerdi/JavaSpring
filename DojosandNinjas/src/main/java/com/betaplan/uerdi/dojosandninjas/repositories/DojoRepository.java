@@ -11,5 +11,5 @@ import java.util.List;
 
 public interface DojoRepository extends CrudRepository<Dojo, Long> {
     List<Dojo> findAll();
-    List<Dojo> findAllByDojo(Dojo dojo);
+
 }

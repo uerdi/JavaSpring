@@ -3,16 +3,17 @@ package com.betaplan.uerdi.dojosandninjas.services;
 import com.betaplan.uerdi.dojosandninjas.models.Dojo;
 import com.betaplan.uerdi.dojosandninjas.repositories.DojoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class DojoService {
 
   @Autowired
   private DojoRepository dojoRepository;
 
-    public List<Dojo> all(){
+    public List<Dojo> findAll(){
         return dojoRepository.findAll();
     }
 

@@ -17,24 +17,28 @@
     <title>Title</title>
 </head>
 <body>
-<form:form>
-<p>
-    <form:label path="lastName">Last Name</form:label>
-    <form:input path="lastName"/>
-</p>
-<p>
-    <form:label path="age">Age</form:label>
-    <form:input path="age"/>
-</p>
-<p>
-    <form:label path="dojo">Dojo</form:label>
-    <form:select path="dojo">
-        <c:forEach var="eachDojo" items="${dojos}">
-            <option value="${eachDojo.id}"><c:out value="${eachDojo.name}"></c:out></option>
-        </c:forEach>
-    </form:select>
-</p>
-<input type="submit" value="Submit"/>
+<form:form action="/ninjas" method="post" modelAttribute="ninja">
+    <p>
+        <form:label path="firstName">Last Name</form:label>
+        <form:input path="firstName"/>
+    </p>
+    <p>
+        <form:label path="lastName">Last Name</form:label>
+        <form:input path="lastName"/>
+    </p>
+    <p>
+        <form:label path="age">Age</form:label>
+        <form:input path="age"/>
+    </p>
+    <p>
+        <form:label path="dojo">Dojo</form:label>
+        <form:select path="dojo">
+            <c:forEach var="eachDojo" items="${dojos}">
+                <option value="${eachDojo.id}"><c:out value="${eachDojo.name}"></c:out></option>
+            </c:forEach>
+        </form:select>
+    </p>
+    <input type="submit" value="Submit"/>
 </form:form>
 
 </body>

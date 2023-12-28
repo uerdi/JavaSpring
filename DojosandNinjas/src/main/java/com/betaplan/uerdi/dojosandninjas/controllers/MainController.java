@@ -9,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @Controller
 public class MainController {
 
@@ -25,26 +27,25 @@ public class MainController {
 
     @GetMapping("/dojos/new")
     public String newDojoForm(@ModelAttribute("dojo") Dojo dojo) {
-        return "newDojoForm.jsp";
+        return "newDojoForm";
+    }
+    @PostMapping("/dojos")
+    public String createDojo(@ModelAttribute("dojo") Dojo dojo) {
+        Dojo newDojo = dojoService.create(dojo);
+        return String.format("redirect:/dojos/%s", newDojo.getId());
     }
 
     @GetMapping("/ninjas/new")
     public String newNinjaForm(@ModelAttribute("ninja") Ninja ninja, Model model) {
-        model.addAttribute("dojos", dojoService.all());
-        return "newNinjaForm.jsp";
+        model.addAttribute("dojos", dojoService.findAll());
+        return "newNinjaForm";
     }
 
     @GetMapping("/dojos/{id}")
     public String showDojo(@PathVariable("id") Long id, Model model) {
         Dojo dojo = dojoService.find(id);
         model.addAttribute("dojo", dojo);
-        return "showDojo.jsp";
-    }
-
-    @PostMapping("/dojos")
-    public String createDojo(@ModelAttribute("dojo") Dojo dojo) {
-        Dojo newDojo = dojoService.create(dojo);
-        return String.format("redirect:/dojos/%s", newDojo.getId());
+        return "showDojo";
     }
 
     @PostMapping("/ninjas")

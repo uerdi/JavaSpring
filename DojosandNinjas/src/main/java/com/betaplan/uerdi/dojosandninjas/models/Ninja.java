@@ -17,7 +17,7 @@ public class Ninja {
     private String firstName;
     @NotBlank(message = "Name must not be empty")
     private String lastName;
-    @NotBlank(message = "Age must not be empty")
+
     private int age;
 
     @Column(updatable=false)
@@ -49,7 +49,7 @@ public class Ninja {
         this.age = age;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
-        this.dojo=dojo;
+        this.dojo = dojo;
     }
 
     public Long getId() {
