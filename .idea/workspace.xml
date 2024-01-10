@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbf2144-9500-42e4-ab6f-1ed83b63e86c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/DojosandNinjasApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/controllers/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/models/Dojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/models/Ninja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/DojoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/NinjaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/services/DojoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/services/NinjaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newDojoForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newNinjaForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/showDojo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/test/java/com/betaplan/uerdi/dojosandninjas/DojosandNinjasApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/models/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/models/Ninja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/DojoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/DojoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/NinjaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/repositories/NinjaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/services/DojoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/java/com/betaplan/uerdi/dojosandninjas/services/DojoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newDojoForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newDojoForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newNinjaForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/newNinjaForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/showDojo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/src/main/webapp/WEB-INF/showDojo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/models/Ninja.class" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/models/Ninja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/repositories/DojoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/repositories/DojoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/repositories/NinjaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/repositories/NinjaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/services/DojoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/DojosandNinjas/target/classes/com/betaplan/uerdi/dojosandninjas/services/DojoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HouseTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HouseTest/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Zr3ylgJ9u5UHrbuaSVWnSmQ7Wj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/Desktop/Dojo_Assignments/Java/JavaSpring",
+    "last_opened_file_path": "C:/Users/User/Desktop/Dojo_Assignments/Java/JavaSpring/HouseTest",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703166628259</updated>
       <workItem from="1703166629267" duration="247000" />
+      <workItem from="1704884106608" duration="30000" />
     </task>
     <servers />
   </component>
