@@ -14,7 +14,7 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <title>Login Register</title>
     <!-- for Bootstrap CSS -->
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
     <link
@@ -23,7 +23,7 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous">
     <!-- YOUR own local CSS -->
-    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/main.css"/>
     <!-- For any Bootstrap that uses JS -->
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>

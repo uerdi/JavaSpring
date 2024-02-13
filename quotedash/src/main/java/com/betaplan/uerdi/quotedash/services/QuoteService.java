@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class QuoteService {
@@ -23,4 +24,17 @@ public class QuoteService {
 
         return quoteRepository.save(quote);
     }
+    public Quote findQuoteById(Long id){
+        Optional<Quote> optionalQuote = quoteRepository.findById(id);
+
+        if (optionalQuote.isPresent()){
+            return optionalQuote.get();
+        } else {
+            return null;
+        }
+    }
+    public void deleteQuote(Long id) {
+        quoteRepository.deleteById(id);
+    }
+
 }

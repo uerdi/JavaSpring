@@ -57,11 +57,18 @@ public class User {
     @OneToMany(mappedBy = "lead", fetch = FetchType.LAZY)
     private List<Quote> quoteLead;
 
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "users_quotes",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "quote_id")
+    )
+    private List<Quote> likedQuotes;
     public User() {
 
     }
 
-    public User(Long id, String userName, String email, String password, String confirm, Date createdAt, Date updatedAt, List<Quote> quoteLead) {
+    public User(Long id, String userName, String email, String password, String confirm, Date createdAt, Date updatedAt, List<Quote> quoteLead, List<Quote> likedQuotes) {
         this.id = id;
         this.userName = userName;
         this.email = email;
@@ -70,6 +77,7 @@ public class User {
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
         this.quoteLead = quoteLead;
+        this.likedQuotes = likedQuotes;
     }
 
     public Long getId() {
@@ -134,5 +142,13 @@ public class User {
 
     public void setQuoteLead(List<Quote> quoteLead) {
         this.quoteLead = quoteLead;
+    }
+
+    public List<Quote> getLikedQuotes() {
+        return likedQuotes;
+    }
+
+    public void setLikedQuotes(List<Quote> likedQuotes) {
+        this.likedQuotes = likedQuotes;
     }
 }
